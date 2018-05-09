@@ -1,4 +1,6 @@
 # NSV_Hackfest
 
 
-Work done during the Microsoft Hackfest 2018.
+Work done for the ML model during the Microsoft Hackfest 2018.
+
+
