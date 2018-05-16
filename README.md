@@ -7,9 +7,9 @@ Work done for the ML model during the Microsoft Hackfest 2018.
 ### File Descriptions
 - **behavior.csv**: table with the behavior types the team manually extracted from the literature.
 - **input_label.npy**: 2D numpy data object that houses the labels for the LSTM supervised learning experiment.
-- **input_vol.npy**: 3D numpy data object that houses the behaviors after have been cleaned and word2vec'd. The dimensions are:
-  - dim1 ("rows"): # of words in the behavior, max 6, padded with 0s if less than 6.
-  - dim2 ("columns"): # of behaviors in behavior.csv
+- **input_vol.npy**: 3D numpy data object that houses the behaviors after have been cleaned and word2vec'd. The dimensions are, according to numpy, 370 x 6 x 300:
+  - dim1 ("rows"): # of behaviors in behavior.csv (370 in the hackfest set)
+  - dim2 ("columns"): # of words in the behavior, max 6, padded with 0s if less than 6.
   - dim3 ("depth"): the word2vec encoding of each word using google's pretrained _GoogleNews-vectors-negative300.bin_, which is 300 units long.
 - **InputLabel.ipynb**: notebook where the input_label.npy is prepared
 - **lda**: notebook for exploratory LDA (Latent Drichilet Allocation) analysis for unsupervised learning of behavior semantics.
