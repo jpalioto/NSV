@@ -3,6 +3,8 @@
 
 Work done for the ML model during the Microsoft Hackfest 2018.
 
+## nlp_model Folder
+This folder contains mainly NLP models developed using LSTM and LDA, with LSTM as the currently best model.
 
 ### File Descriptions
 - **behavior.csv**: table with the behavior types the team manually extracted from the literature.
@@ -24,5 +26,5 @@ Work done for the ML model during the Microsoft Hackfest 2018.
 - **randomize_input.ipynb**: a prototype for randomizing input that is implemented in lstm.ipynb
 - **w2v.ipynb**: notebook that transforms behavior.csv into input_vol.npy
 
-### Data Folder
+## Data Folder
 - **NoSchoolViolenceLabels.csv**: the file containing the behaviors and their labels, which were done by the team by hand.
